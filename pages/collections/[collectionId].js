@@ -54,7 +54,7 @@
  
      const sdk = new ThirdwebSDK(
        provider.getSigner(),
-       'https://eth-goerli.g.alchemy.com/v2/bKReRC41sZAQ2yMca5em5VTLX4aKJN6E'
+       //'https://eth-goerli.g.alchemy.com/v2/bKReRC41sZAQ2yMca5em5VTLX4aKJN6E'
      )
      return sdk.getNFTModule(collectionId)
    }, [provider])
@@ -65,7 +65,7 @@
      ;(async () => {
        const nfts = await nftModule.getAll()
  
-       setNfts(nfts)
+       console.log(nfts)
      })()
    }, [nftModule])
  
@@ -74,7 +74,7 @@
  
      const sdk = new ThirdwebSDK(
        provider.getSigner(),
-       'https://eth-goerli.g.alchemy.com/v2/bKReRC41sZAQ2yMca5em5VTLX4aKJN6E'
+       //'https://eth-goerli.g.alchemy.com/v2/bKReRC41sZAQ2yMca5em5VTLX4aKJN6E'
      )
      return sdk.getMarketplaceModule(
        '0x8c993103f60C6F3D4072f0930afECd4E01Dbe7E0'
@@ -214,14 +214,16 @@
            <div className={style.description}>{collection?.description}</div>
          </div>
        </div>
-       <div className="flex flex-wrap ">
+       <div className="flex flex-wrap">
          {nfts.map((nftItem, id) => (
            <NFTCard
              key={id}
              nftItem={nftItem}
              title={collection?.title}
              listings={listings}
+             
            />
+           
          ))}
        </div>
      </div>

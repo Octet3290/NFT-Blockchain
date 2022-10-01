@@ -11,6 +11,7 @@ https://hacktoberfest.digitalocean.com/</p>
 
 ### What can You contribute ⚠️
 
+- There are functionality based folder in the repository choose any you're comfortable with if not, make one.
 - There is components folder inside which there is respective page of every mentioned header topic on the Landing page.
 - Inside the pages -> collection -> collectionId is where we have fetched our NFT Collection from NFT marketplace using Thirdweb sdk.
 - Contribute any possible technical featurs that might boost up the app view and functionality.

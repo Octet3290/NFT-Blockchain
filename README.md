@@ -1,10 +1,9 @@
-# opensea-blockchain-clone
-In this tutorial, we're gonna be building the Opensea Blockchain Web 3.0 App using Next JS, Sanity.io, thirdweb, Tailwind CSS, and Vercel 🔥
+# NFT-Blockchain
+In this project, we're gonna be building the Opensea Blockchain Web 3.0 App using Next JS, Sanity.io, thirdweb and Tailwind CSS.
 
 
 # App In Action
 - Connecting Wallet
-
 
 <img src="https://github.com/Octet3290/NFT-Blockchain/blob/main/Website%20screenshot/connecting%20wallet.png" alt="drawing" width="500"/>    
 

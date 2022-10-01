@@ -10,7 +10,7 @@ const style = {
   wrapper: ``,
   walletConnectWrapper: `flex flex-col justify-center items-center h-screen w-screen bg-[#3b3d42] `,
   button: `border border-[#282b2f] bg-[#2081e2] p-[0.8rem] text-xl font-semibold rounded-lg cursor-pointer text-black`,
-  details: `text-lg text-center text=[#282b2f] font-semibold mt-4`,
+  details: `text-lg text-center text-[#ffffff] font-semibold mt-4`,
 }
 
 export default function Home() {
@@ -44,8 +44,16 @@ export default function Home() {
     })()
   }, [address])
 
+  function connect() {
+    console.log('Connecting...'); 
+    connectWallet('injected');
+  }
+
   return (
     <div className={style.wrapper}>
+      <Head>
+        <title key="title">NFT Blockchain</title>
+      </Head>
       <Toaster position="top-center" reverseOrder={false} />
       {address ? (
         <>
@@ -56,14 +64,16 @@ export default function Home() {
         <div className={style.walletConnectWrapper}>
           <button
             className={style.button}
-            onClick={() => connectWallet('injected')}
+            onClick={() => connect()}
           >
             Connect Wallet
           </button>
           <div className={style.details}>
-            You need Chrome to be
+            You need <a href="https://www.google.com/chrome/" target="_blank">Google Chrome</a> to be
             <br /> able to run this app.
           </div>
+          <div className={style.details}>Currently supporting only 
+          <br /><a href="https://goerli.net/" target="_blank">Goerli</a> test network.</div>
         </div>
       )}
     </div>

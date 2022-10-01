@@ -1,27 +1,20 @@
-# Next.js + Tailwind CSS Example
+# opensea-blockchain-clone
+In this tutorial, we're gonna be building the Opensea Blockchain Web 3.0 App using Next JS, Sanity.io, thirdweb, Tailwind CSS, and Vercel 🔥
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
-## Deploy your own
+# App In Action
+- Connecting Wallet
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+<img src="https://github.com/Octet3290/NFT-Blockchain/blob/main/Website%20screenshot/connecting%20wallet.png" alt="drawing" width="500"/>      <img src="https://github.com/zexoverz/opensea-blockchain-clone/blob/main/app-img/openseaclone_collection.png" alt="drawing" width="500"/>
 
-## How to use
+- Landing Page
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+<img src="https://github.com/Octet3290/NFT-Blockchain/blob/main/Website%20screenshot/WhatsApp%20Image%202022-10-01%20at%2010.43.37%20AM.jpeg" alt="drawing" width="500"/>      
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+- Collections Landing Page
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+<img src="https://github.com/Octet3290/NFT-Blockchain/blob/main/Website%20screenshot/bored%20ape%20landing.png" alt="drawing" width="500"/>   
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+- This project is not completed yet, will complete the whole functionaity of the project in few weeks.

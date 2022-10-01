@@ -6,7 +6,7 @@ In this tutorial, we're gonna be building the Opensea Blockchain Web 3.0 App usi
 - Connecting Wallet
 
 
-<img src="https://github.com/Octet3290/NFT-Blockchain/blob/main/Website%20screenshot/connecting%20wallet.png" alt="drawing" width="500"/>      <img src="https://github.com/zexoverz/opensea-blockchain-clone/blob/main/app-img/openseaclone_collection.png" alt="drawing" width="500"/>
+<img src="https://github.com/Octet3290/NFT-Blockchain/blob/main/Website%20screenshot/connecting%20wallet.png" alt="drawing" width="500"/>    
 
 - Landing Page
 

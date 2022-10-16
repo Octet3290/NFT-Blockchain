@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { utils } from 'ethers'
 import { BiHeart } from 'react-icons/bi'
 import Router from 'next/router'
 
@@ -27,7 +28,9 @@ const NFTCard = ({ nftItem, title, listings }) => {
     const listing = listings.find((listing) => listing.asset.id === nftItem.id)
     if (Boolean(listing)) {
       setIsListed(true)
-      setPrice(listing.buyoutCurrencyValuePerToken.displayValue)
+      // utils.formatEther would help formatting wei
+      console.log(utils.formatEther(listing.buyoutCurrencyValuePerToken.displayValue))
+      setPrice(utils.formatEther(listing.buyoutCurrencyValuePerToken.displayValue))
     }
   }, [listings, nftItem])
 

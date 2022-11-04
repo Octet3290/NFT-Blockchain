@@ -27,9 +27,9 @@ const Nft = () => {
 
     const sdk = new ThirdwebSDK(
       provider.getSigner(),
-      'https://rinkeby.infura.io/v3/a464b9152d8c466c8a94a514fce8e837'
+      
     )
-    return sdk.getNFTModule('0x66a576A977b7Bccf510630E0aA5e450EC11361Fa')
+    return sdk.getNFTModule('0x10F2731698aF689A136E6827400D4ecDeaCb19a0')
   }, [provider])
 
   // get all NFTs in the collection
@@ -49,7 +49,7 @@ const Nft = () => {
 
     const sdk = new ThirdwebSDK(
       provider.getSigner(),
-      'https://eth-goerli.g.alchemy.com/v2/bKReRC41sZAQ2yMca5em5VTLX4aKJN6E'
+      
     )
 
     return sdk.getMarketplaceModule(

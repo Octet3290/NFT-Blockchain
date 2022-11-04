@@ -68,4 +68,6 @@ export default function Home() {
       )}
     </div>
   )
+  const cors = require("cors");
+  app.use(cors());
 }

@@ -164,15 +164,14 @@ const Collection = () => {
         </div>
       </div>
       <div className="flex flex-wrap mx-10">
-      {listings?.map((nftItem) => (
-  <NFTCard
-    key={nftItem.asset.nftId} // Assuming nftId is the unique identifier
-    nftItem={nftItem.asset}
-    title={collection?.title}
-    listings={listings}
-  />
-))}
-
+        {listings?.map((nftItem, id) => (
+          <NFTCard
+            key={id}
+            nftItem={nftItem.asset}
+            title={collection?.title}
+            listings={listings}
+          />
+        ))}
       </div>
     </div>
   )

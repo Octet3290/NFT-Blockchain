@@ -1,27 +1,18 @@
-# Next.js + Tailwind CSS Example
+# NFT-Blockchain Blockchain App
+An NFT-Blockchain Web 3.0 app merges NFTs (unique digital assets) and blockchain (decentralized, secure ledger) to create a decentralized application. This app empowers users to securely trade, manage, and prove ownership of NFTs, aligning with the principles of Web 3.0, which emphasize user control and a decentralized, trustworthy online experience.
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
-## Deploy your own
+# App In Action
+- App Dashboard
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+![App Dashboard](https://github.com/Octet3290/NFT-Blockchain/blob/main/Website%20screenshot/WhatsApp%20Image%202022-10-01%20at%2010.43.37%20AM.jpeg)   
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+- Bored Ape Landing page
 
-## How to use
+![Bored Ape Landing page](https://github.com/Octet3290/NFT-Blockchain/blob/main/Website%20screenshot/bored%20ape%20landing.png)   
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+- Connecting wallet
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+![Connecting wallet](https://github.com/Octet3290/NFT-Blockchain/blob/main/Website%20screenshot/connecting%20wallet.png)  
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
